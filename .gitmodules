@@ -1,0 +1,3 @@
+[submodule "abedrechsler.com/datum-manager"]
+	path = abedrechsler.com/datum-manager
+	url = https://github.com/abrahamdrechsler/datum-manager.git

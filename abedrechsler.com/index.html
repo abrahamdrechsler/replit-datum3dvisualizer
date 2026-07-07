@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS file -->
+    <script defer src="script.js"></script> <!-- JavaScript file -->    
+</head>
+<body>
+    <!-- Password Prompt -->
+    <div id="passwordPrompt" style="display: flex; flex-direction: column; align-items: center;">
+        <h1>Enter Password</h1>
+        <input type="password" id="passwordInput" placeholder="Enter password" />
+        <button id="submitPassword">Submit</button>
+    </div>
+
+    <!-- Main Content -->
+    <div id="mainContent" style="display: none;">
+        <header class="hero">
+            <h1>Welcome to My Awesome Site</h1>
+            <p>Your journey starts here!</p>
+        </header>
+        <main>
+            <section>
+                <h2>About Me</h2>
+                <p>This is a paragraph about me. I’m excited to share my website with you - and you!</p>
+            </section>
+            <section>
+                <h2>My Interests</h2>
+                <p>Here are a few of the things I’m passionate about.</p>
+            </section>
+            <section>
+                <h2>My Interests</h2>
+                <img src="images/interest.jpg" alt="Image describing my interests">
+                <p>Here are a few of the things I’m passionate about.</p>
+            </section>
+            <section>
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="garden-planner.html">Garden Planner</a> - A tool for planning your perfect garden.</li>
+                    <li><a href="https://abrahamdrechsler.github.io/datum-manager/">Datum Manager</a> - A datum management system for CAD applications that provides static datum visualization and operations. Features include:
+                        <ul>
+                            <li>Static datum visualization with color-coded absolute (purple) and relative (blue dashed) datums</li>
+                            <li>Offset visualization and management with 5-foot grid intervals</li>
+                            <li>Elevation view with dimension lines</li>
+                            <li>Integrated datum list with raw offset values</li>
+                            <li>Relationship visualization tools</li>
+                            <li>Automatic relative datum updates</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Contact me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
